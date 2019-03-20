@@ -55,7 +55,7 @@
     height: 15%;
     display: flex;
     justify-content: center;
-    margin-top: -180px;
+    margin-top: -110px;
 }
 
 .game-title{
@@ -67,9 +67,9 @@
  * Section id="class-select" *
  *****************************/
 
-#class-select{
+#class-select, #gameMain{
     width: 80%;
-    height: 60%;
+    height: 70%;
     border: 5px solid #3d4654;
     border-radius: 15px;
     background-color: #8e99ad;
@@ -85,11 +85,15 @@
     font-size: 25px;
 }
 
+.text-stat{
+    text-decoration: underline;
+}
 .class-container{
     width: 100%;
-    height: 89%;
+    height: 80%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: -40px;
 }
 
 .char-container{
@@ -99,6 +103,7 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 
 .class-name{
@@ -107,6 +112,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
 }
 
 .class-img{
@@ -119,6 +125,7 @@
     width: 100%;
     height: 48%;
     margin-left: 35px;
+    color: white;
 }
 
 .char-img{
@@ -127,6 +134,66 @@
     border: 3px solid #3d4654;
 }
 
+.class-btn{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.btn-class-select{
+    width: 150px;
+    height: 50px;
+    background-color:#0F2A33;
+    border-radius: 20px;
+    color: gold
+}
+
+/*****************************
+ *   Section id="gameMain"   *
+ *****************************/
+
+ #gameMain{
+    background-image: url(images/city.jpg);
+ }
+
+ .activity-container{
+     width: 100%;
+     height: 50%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .arena-dungeon, .arena-dungeon-text, .shop-inv-bs, .shop-inv-bs-text{
+     width: 100%; 
+     height: 90%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .arena-dungeon-text, .shop-inv-bs-text{
+     font-size: 20px;
+     height: 10%;
+     color: gold;
+ }
+
+ .shop-inv-bs, .shop-inv-bs-text{
+     justify-content: space-around;
+ }
+
+ .activity-img, .activity-img2{
+     width: 20%;
+     height: 80%;
+     border-radius: 120px;
+ }
+
+ .activity-img2{
+     border: 3px solid black;
+ }
+
+ .hide{
+     color: black;
+ }
 
 /*****************************
  *    Section id="arena"     *
