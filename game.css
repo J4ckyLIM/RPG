@@ -1,0 +1,149 @@
+.display{
+    display: none;
+}
+
+/*****************************
+ * Section id="presentation" *
+ *****************************/
+#pres-container{
+    width: 100%;
+    height:800px;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title, .btn-col{
+    width:100%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-col{
+    align-items: center;
+}
+.title-img{
+    width: 900px;
+    height: 450px;
+}
+
+.btn-start{
+    width: 200px;
+    height:100px;
+    background-color:orange;
+    border:1px solid white;
+}
+
+/*****************************
+ *       div id="game"       *
+ *****************************/
+
+#game{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-logo-top{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    margin-top: -180px;
+}
+
+.game-title{
+    width: 300px;
+    height: 100%;
+}
+
+/*****************************
+ * Section id="class-select" *
+ *****************************/
+
+#class-select{
+    width: 80%;
+    height: 60%;
+    border: 5px solid #3d4654;
+    border-radius: 15px;
+    background-color: #8e99ad;
+}
+
+.class-text{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.text-class-select{
+    font-size: 25px;
+}
+
+.class-container{
+    width: 100%;
+    height: 89%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.char-container{
+    width: 20%;
+    height: 85%;
+    border: 3px solid #3d4654;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.class-name{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.class-img{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+}
+
+.class-stat{
+    width: 100%;
+    height: 48%;
+    margin-left: 35px;
+}
+
+.char-img{
+    width: 75%;
+    height: 100%;
+    border: 3px solid #3d4654;
+}
+
+
+/*****************************
+ *    Section id="arena"     *
+ *****************************/
+
+/*****************************
+ *   Section id="dungeon"    *
+ *****************************/
+
+/*****************************
+ *     Section id="shop"     *
+ *****************************/
+
+/*****************************
+ *  Section id="blackSmith"  *
+ *****************************/
+
+/*****************************
+ *  Section id="inventory"   *
+ *****************************/
