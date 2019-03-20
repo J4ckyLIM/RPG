@@ -67,7 +67,7 @@
  * Section id="class-select" *
  *****************************/
 
-#class-select, #gameMain{
+#class-select, #gameMain, #arena{
     width: 80%;
     height: 70%;
     border: 5px solid #3d4654;
@@ -199,6 +199,92 @@
  *    Section id="arena"     *
  *****************************/
 
+ #arena{
+     background-image: url(images/fightMap.png);
+ }
+.top-HUD{
+    width: 100%;
+    height: 65%;
+    display: inline-flex;
+}
+
+.skills-HUD{
+    height: 35%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.character-container, .monster-container{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middle-top-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.versus-container{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-bar{
+    width: 100%;
+    height: 30%;
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.fighters-img{
+    width: 100%;
+    height: 90%;
+}
+
+#player-health, #monster-health{
+    width: 95%;
+    height: 6%;
+}
+
+.versus-logo{
+    width: 40%;
+    height: 70%;
+}
+
+.skill-toolbar{
+    width: 48%;
+    height: 98%;
+    border: 4px solid rgb(124,64,48);
+    border-radius: 15px;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.skill1-2, .skill3-4{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skill-btn{
+    width: 30%;
+    height: 50%;
+    border-radius: 10px;
+    opacity: 1;
+}
 /*****************************
  *   Section id="dungeon"    *
  *****************************/
