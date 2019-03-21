@@ -67,7 +67,7 @@
  * Section id="class-select" *
  *****************************/
 
-#class-select, #gameMain, #arena{
+#class-select, #gameMain, #arena, #shop{
     width: 80%;
     height: 70%;
     border: 5px solid #3d4654;
@@ -153,7 +153,9 @@
  *****************************/
 
  #gameMain{
-    background-image: url(images/city.jpg);
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
  }
 
  .activity-container{
@@ -320,6 +322,187 @@ td{
 /*****************************
  *     Section id="shop"     *
  *****************************/
+
+ #shop{
+     background-image: url(images/shopBackground.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .shop-title{
+     width: 100%;
+     height: 15%;
+     text-align: center;
+ }
+
+ .shop-title-img{
+     width: 20%;
+     height: 100%;
+ }
+
+ .shop-content{
+     width: 100%;
+     height: 83%;
+     display: flex;
+ }
+
+ .item-to-sell-HUD, .player-inventory-container{
+     width: 50%;
+     height: 100%;
+ }
+
+ .player-inventory-container{
+     background-image: url(images/background5.png);
+     border: 4px solid white;
+     border-radius: 15px;
+ }
+
+ .item-to-sell-HUD{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .items-container, .shop-owner-container{
+     width: 100%;
+     height: 60%;
+ }
+
+ .shop-owner-container{
+     height: 40%;
+     display: flex;
+ }
+
+ .items-container{
+     display: flex;
+     flex-direction: column;
+     background-image: url(images/background5.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 15px;
+     border: 4px solid white
+ }
+
+ .item-list{
+     width: 100%;
+     height: 24%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .price{
+     color: white;
+ }
+ .item-img{
+     width: 50px;
+     height: 45px;
+ }
+
+ #buy-btn{
+    width: 80px;
+    height: 40px;
+ }
+
+ .shop-owner, .bubble-container{
+     width: 40%;
+     height: 100%;
+ }
+
+ .bubble-container{
+     width: 60%;
+ }
+
+ .shop-owner-img{
+     width: 85%;
+     height: 100%
+ }
+.bubble-img, .exit-img{
+    width: 90%;
+    height: 50%;
+}
+
+.exit-img{
+    margin-top: 20px;
+}
+
+.inventory-title-container, .player-gold-container{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+}
+
+.inventory-title, .player-item, .player-item-qty{
+    width: 50%;
+    height: 100%;
+}
+
+.player-inventory{
+    width: 100%;
+    height: 80%;
+    display: flex;
+}
+
+.player-item-img, #player-item-qty-side, .player-item-text{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-item-text{
+    height: 15%;
+}
+
+.gold-img{
+    width: 30%;
+    height: 70%;
+    margin-left: 13px;
+}
+
+.inventory-item-img{
+    width: 25%;
+    height: 85%;
+}
+.inventory-item-title{
+    width: 40%;
+    height: 75%;
+}
+
+.inventory-item-img{
+    width: 25%;
+}
+
+#player-item-qty-side{
+    color: white;
+    font-size: 30px;
+}
+
+.player-gold-container{
+    display: inline-flex;
+}
+#player-gold{
+    color: white;
+    font-size: 30px;
+}
+
+.gold-container, .gold-qty{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start
+}
+
+.gold-qty{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+
 
 /*****************************
  *  Section id="blackSmith"  *

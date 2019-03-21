@@ -90,7 +90,7 @@
         <!--<section id="gameMain">
             <div class="activity-container">
                 <div class="arena-dungeon">
-                    <img src="images/arena.png" class="activity-img2">
+                    <img src="images/arena3.gif" class="activity-img2">
                     <img src="images/dungeon.gif" class="activity-img2">
                 </div>
                 <div class="arena-dungeon-text">
@@ -100,7 +100,7 @@
             </div>
             <div class="activity-container">
                 <div class="shop-inv-bs">
-                    <img src="images/blacksmith.png" class="activity-img">
+                    <img src="images/blacksmith3.gif" class="activity-img">
                     <img src="images/shop.gif" class="activity-img">
                     <img src="images/inventory.png" class="activity-img">
                 </div>
@@ -111,7 +111,7 @@
                 </div>
             </div>
         </section> -->
-       <section id="arena">
+       <!--<section id="arena">
             <div class="top-HUD">
                 <div class="character-container">
                     <img src="images/warrior.gif" class="fighters-img">
@@ -151,7 +151,75 @@
             </div>
         </section> -->
         <section id="dungeon"></section>
-        <section id="shop"></section>
+        <section id="shop">
+            <div class="shop-title">
+                <img src="images/shoptitle.png" class="shop-title-img">
+            </div>
+            <div class="shop-content">
+                <div class="item-to-sell-HUD">
+                    <div class="items-container">
+                        <div class="item-list">
+                            <img src="images/hpPotion.png" class="item-img">
+                            <p class="price">Potion Hp: 5 PO</p>
+                            <img src="images/buyBtn.png" id="buy-btn">
+                        </div>
+                        <div class="item-list">
+                            <img src="images/StrPotion.png" class="item-img">
+                            <p class="price">Potion de force: 5 PO</p>
+                            <img src="images/buyBtn.png" id="buy-btn">
+                        </div>
+                        <div class="item-list">
+                            <img src="images/DexPotion.png" class="item-img">
+                            <p class="price">Potion d'agilité: 5 PO</p>
+                            <img src="images/buyBtn.png" id="buy-btn">
+                        </div>
+                        <div class="item-list">
+                            <img src="images/WisPotion.png" class="item-img">
+                            <p class="price">Potion de sagesse: 5 PO</p>
+                            <img src="images/buyBtn.png" id="buy-btn">
+                        </div>
+                    </div>
+                    <div class="shop-owner-container">
+                        <div class="shop-owner">
+                            <img src="images/shopOwner.gif" class="shop-owner-img">
+                        </div>
+                        <div class="bubble-container">
+                            <img src="images/bubble.png" class="bubble-img">
+                            <img src="images/exit.png" class="exit-img">
+                        </div>
+                    </div>
+                </div>
+                <div class="player-inventory-container">
+                    <div class="inventory-title-container">
+                        <img src="images/inventoryTitle.png" class="inventory-title">
+                    </div>
+                    <div class="player-inventory">
+                        <div class="player-item">
+                            <div class="player-item-text"><img src="images/items.png" class="inventory-item-title"></div>
+                            <div class="player-item-img"><img src="images/hpPotion.png" class="inventory-item-img"></div>
+                            <div class="player-item-img"><img src="images/DexPotion.png" class="inventory-item-img"></div>
+                            <div class="player-item-img"><img src="images/StrPotion.png" class="inventory-item-img"></div>
+                            <div class="player-item-img"><img src="images/WisPotion.png" class="inventory-item-img"></div>
+                        </div>
+                        <div class="player-item-qty">
+                            <div class="player-item-text"><img src="images/quantity.png" class="inventory-item-title"></div>
+                            <div id="player-item-qty-side">X 0</div>
+                            <div id="player-item-qty-side">X 0</div>
+                            <div id="player-item-qty-side">X 0</div>
+                            <div id="player-item-qty-side">X 0</div>
+                        </div>
+                    </div>
+                    <div class="player-gold-container">
+                        <div class="gold-container">
+                        </div>
+                        <div class="gold-qty">
+                                <p id="player-gold">999 gold</p>
+                                <img src="images/gold.gif" class="gold-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="blackSmith"></section>
         <section id="inventory"></section>
     </div>
