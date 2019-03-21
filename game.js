@@ -194,10 +194,6 @@ var shop = {
     agilityPotion: {
         price: 50,
         agility: 5
-},
-    staminaPotion: {
-        price: 50,
-        stamina: 5
     },
     wisdomPotion: {
         price: 50,

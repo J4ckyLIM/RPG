@@ -18,7 +18,7 @@
         <div class="game-logo-top">
             <img src="images/title-logo.jpg" class="game-title">
         </div>
-    <!--    <section id="class-select" class="">
+        <!--<section id="class-select" class="">
             <div class="class-text">
                 <p class="text-class-select">Choisissez une classe</p>
             </div>
@@ -28,7 +28,7 @@
                         <p>Guerrier</p>
                     </div>
                     <div class="class-img">
-                        <img src="images/warrior.jpg" class="char-img">
+                        <img src="images/warrior.gif" class="char-img">
                     </div>
                     <div class="class-stat">
                         <p class="text-stat">Statistiques:</p>
@@ -47,7 +47,7 @@
                         <p>Archer</p>
                     </div>
                     <div class="class-img">
-                        <img src="images/archer.jpg" class="char-img">
+                        <img src="images/archer.png" class="char-img">
                     </div>
                     <div class="class-stat">
                         <p class="text-stat">Statistiques:</p>
@@ -66,7 +66,7 @@
                         <p>Sorcier</p>
                     </div>
                     <div class="class-img">
-                        <img src="images/sorcerer.jpg" class="char-img">
+                        <img src="images/sorcerer.gif" class="char-img">
                     </div>
                     <div class="class-stat">
                         <p class="text-stat">Statistiques:</p>
@@ -87,11 +87,11 @@
                 <button id="btn-sorcerer" class="btn-class-select">Choisir</button>       
             </div>
         </section> -->
-       <!-- <section id="gameMain">
+        <!--<section id="gameMain">
             <div class="activity-container">
                 <div class="arena-dungeon">
                     <img src="images/arena.png" class="activity-img2">
-                    <img src="images/dungeon.png" class="activity-img2">
+                    <img src="images/dungeon.gif" class="activity-img2">
                 </div>
                 <div class="arena-dungeon-text">
                     <p>ARENA</p>
@@ -102,7 +102,7 @@
                 <div class="shop-inv-bs">
                     <img src="images/blacksmith.png" class="activity-img">
                     <img src="images/shop.gif" class="activity-img">
-                    <img src="images/inventory2.png" class="activity-img">
+                    <img src="images/inventory.png" class="activity-img">
                 </div>
                 <div class="shop-inv-bs-text">
                     <p>BLACKSMITH</p>
@@ -111,10 +111,10 @@
                 </div>
             </div>
         </section> -->
-        <section id="arena">
+       <section id="arena">
             <div class="top-HUD">
                 <div class="character-container">
-                    <img src="images/warrior2.gif" class="fighters-img">
+                    <img src="images/warrior.gif" class="fighters-img">
                     <progress id="player-health" value="100" max="100"></progress>
                 </div>
                 <div class="middle-top-container">
@@ -126,10 +126,14 @@
                 </div>
                 <div class="monster-container">
                     <img src="images/boss.png" class="fighters-img">
-                    <progress id="monster-health" value="100" max="100"></progress>
+                    <progress id="monster-health" value="10" max="100"></progress>
                 </div>
             </div>
             <div class="skills-HUD">
+                <div class="battle-item-HUD">
+                    <img src="images/hpPotion.png" class="hp-potion">
+                    <p id="hpPotQte">X 2</p>
+                </div>
                 <div class="skill-toolbar">
                     <div class="skill1-2">
                         <button id="skill1" class="skill-btn"></button>
@@ -140,14 +144,17 @@
                         <button id="skill4" class="skill-btn"></button>
                     </div>
                 </div>
+                <div class="next-btn-HUD">
+                    <img src="images/nextbtn.png" class="next-btn">
+                    <img src="images/back.png" class="back-btn">
+                </div>
             </div>
-        </section>
+        </section> -->
         <section id="dungeon"></section>
         <section id="shop"></section>
         <section id="blackSmith"></section>
         <section id="inventory"></section>
     </div>
 <script src="game.js"></script>
-<progress id="health" value="100" max="100"></progress>
 </body>
 </html>
