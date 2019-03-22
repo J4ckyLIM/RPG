@@ -67,7 +67,7 @@
  * Section id="class-select" *
  *****************************/
 
-#class-select, #gameMain, #arena, #shop{
+#class-select, #gameMain, #arena, #shop, #blackSmith{
     width: 80%;
     height: 70%;
     border: 5px solid #3d4654;
@@ -542,6 +542,139 @@ td{
  *  Section id="blackSmith"  *
  *****************************/
 
+ #blackSmith{
+     background-image: url(images/blacksmithBackground.gif);
+     background-size: 100% 100%;
+ }
+
+ .bs-title-row{
+     width: 100%;
+     height: 15%;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+
+ .bs-title-col{
+     width: 33%;
+     height: 100%;
+ }
+
+ .bs-title{
+     width: 100%;
+     height: 60%;
+ }
+
+ .bs-title-col-exit{
+     display: flex;
+     justify-content: flex-end;
+ }
+#exit-btn{
+    width: 35%;
+    height: 60%;
+}
+ .bs-content-row{
+     height: 85%;
+     width: 100%;
+     display: flex;
+ }
+
+ .bs-content-col, .bs-content-col1, .bs-content-col2{
+     width: 33%;
+     height: 100%;
+ }
+
+ .bs-content-col1, .bs-content-col2{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: 4px solid  rgb(124,64,48);
+     border-radius: 10px;
+     background-image: url(images/background5.png);
+     background-size: 100% 100%;
+ }
+
+ .bs-upgrade-row{
+     width: 100%;
+     height: 17%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .bs-title-img{
+     width: 70%;
+     height: 10%;
+ }
+
+ .equip-upgrade-img, .upgrade-btn{
+     width: 20%;
+     height: 65%;
+ }
+
+.equip-upgrade-img{
+    margin-left: 15px;
+}
+
+.upgrade-btn{
+    margin-right: 10px;
+}
+
+ .equip-container{
+     width: 100%;
+     height: 45%;
+ }
+
+ .equip-row, .equip-row2{
+     width: 100%;
+     height: 33%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .equip-row2{
+     justify-content: space-around;
+ }
+
+ .char-stat-container{
+     width: 100%;
+     height: 45%;
+     border-top: 5px solid rgb(124,64,48);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .char-stat-row{
+     width: 100%;
+     height: 90%;
+     display: flex;
+ }
+
+ .char-stat-col1, .char-stat-col2{
+    width: 100%;
+    height: 100%;
+ }
+
+ .char-stat-col1{
+     width: 40%;
+     margin-left: 30px;
+ }
+
+ .equip-img{
+     width: 20%;
+     height: 65%;
+     border: 1px solid white;
+ }
+
+ #char-info{
+     color: white;
+ }
+
+ .upgrade-description{
+     color: white;
+ }
 /*****************************
  *  Section id="inventory"   *
  *****************************/
